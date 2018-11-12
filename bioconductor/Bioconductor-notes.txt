@@ -49,3 +49,8 @@ installed.packages()
 
 #xcms is present as an installed packages. So in theory raw data can be run through this container and be processed through the xcms package. 
 
+#now I am going to push this image into my repository for later use. to do this you can follow the instructions below:
+
+docker tag IMAGEID username/repository:tag
+docker push username/repository
+
