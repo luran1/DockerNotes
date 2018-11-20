@@ -1,0 +1,8 @@
+# Code to build docker images 
+# Base-linux
+#-----------
+docker build -t base-linux /$Basedir/containers/base-linux/.
+
+# xcms-bioconductor
+#------------------
+docker build -t xcms-bioconductor /$Basedir/containers/xcms/.
